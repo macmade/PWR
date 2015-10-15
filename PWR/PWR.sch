@@ -256,7 +256,7 @@ U 1 1 56194710
 P 8100 3000
 F 0 "P1" H 8100 3100 50  0000 C CNN
 F 1 "+5v" V 8200 3000 50  0000 C CNN
-F 2 "XS:Connection-Molex-Breakaway-Header-Square-1x1" H 8100 3000 60  0001 C CNN
+F 2 "XS:Connection-Molex-Breakaway-Header-Square-1x1-Simple" H 8100 3000 60  0001 C CNN
 F 3 "" H 8100 3000 60  0000 C CNN
 	1    8100 3000
 	1    0    0    -1  
@@ -267,7 +267,7 @@ U 1 1 561947E5
 P 8100 4400
 F 0 "P2" H 8100 4500 50  0000 C CNN
 F 1 "GND" V 8200 4400 50  0000 C CNN
-F 2 "XS:Connection-Molex-Breakaway-Header-Square-1x1" H 8100 4400 60  0001 C CNN
+F 2 "XS:Connection-Molex-Breakaway-Header-Square-1x1-Simple" H 8100 4400 60  0001 C CNN
 F 3 "" H 8100 4400 60  0000 C CNN
 	1    8100 4400
 	1    0    0    -1  

@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/macmade/Documents/Macmade/GitHub/PWR/PWR/PWR.sch)
-    (date "2015 October 13, Tuesday 20:34:08")
+    (date "2015 October 15, Thursday 15:48:30")
     (tool "Eeschema (2015-08-21 BZR 6112)-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -95,13 +95,13 @@
       (tstamp 56183DF3))
     (comp (ref P1)
       (value +5v)
-      (footprint XS:Connection-Molex-Breakaway-Header-Square-1x1)
+      (footprint XS:Connection-Molex-Breakaway-Header-Square-1x1-Simple)
       (libsource (lib conn) (part CONN_01X01))
       (sheetpath (names /) (tstamps /))
       (tstamp 56194710))
     (comp (ref P2)
       (value GND)
-      (footprint XS:Connection-Molex-Breakaway-Header-Square-1x1)
+      (footprint XS:Connection-Molex-Breakaway-Header-Square-1x1-Simple)
       (libsource (lib conn) (part CONN_01X01))
       (sheetpath (names /) (tstamps /))
       (tstamp 561947E5))
@@ -124,6 +124,63 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5619C421)))
   (libparts
+    (libpart (lib device) (part Switch_SPDT_x2)
+      (description "Double Single Pole Double Throw (SPDT) switch")
+      (fields
+        (field (name Reference) SW)
+        (field (name Value) Switch_SPDT_x2))
+      (pins
+        (pin (num 1) (name A) (type passive))
+        (pin (num 2) (name B) (type passive))
+        (pin (num 3) (name C) (type passive))
+        (pin (num 4) (name A) (type passive))
+        (pin (num 5) (name B) (type passive))
+        (pin (num 6) (name C) (type passive))))
+    (libpart (lib conn) (part BARREL_JACK)
+      (description "DC Barrel Jack")
+      (fields
+        (field (name Reference) CON)
+        (field (name Value) BARREL_JACK))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))
+        (pin (num 3) (name ~) (type passive))))
+    (libpart (lib device) (part Battery)
+      (fields
+        (field (name Reference) BT)
+        (field (name Value) Battery))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib device) (part C)
+      (description "Unpolarized capacitor")
+      (footprints
+        (fp C?)
+        (fp C_????_*)
+        (fp C_????)
+        (fp SMD*_c)
+        (fp Capacitor*))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib device) (part CP)
+      (description "Polarised capacitor")
+      (footprints
+        (fp CP*)
+        (fp Elko*)
+        (fp TantalC*)
+        (fp C*elec)
+        (fp c_elec*)
+        (fp SMD*_Pol))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) CP))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
     (libpart (lib regul) (part 7805)
       (aliases
         (alias LM7805)
@@ -138,15 +195,6 @@
         (pin (num GND) (name GND) (type input))
         (pin (num VI) (name VI) (type input))
         (pin (num VO) (name VO) (type power_out))))
-    (libpart (lib conn) (part BARREL_JACK)
-      (description "DC Barrel Jack")
-      (fields
-        (field (name Reference) CON)
-        (field (name Value) BARREL_JACK))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))
-        (pin (num 3) (name ~) (type passive))))
     (libpart (lib device) (part LED)
       (footprints
         (fp LED-3MM)
@@ -187,54 +235,6 @@
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
-    (libpart (lib device) (part Switch_SPDT_x2)
-      (description "Double Single Pole Double Throw (SPDT) switch")
-      (fields
-        (field (name Reference) SW)
-        (field (name Value) Switch_SPDT_x2))
-      (pins
-        (pin (num 1) (name A) (type passive))
-        (pin (num 2) (name B) (type passive))
-        (pin (num 3) (name C) (type passive))
-        (pin (num 4) (name A) (type passive))
-        (pin (num 5) (name B) (type passive))
-        (pin (num 6) (name C) (type passive))))
-    (libpart (lib device) (part C)
-      (description "Unpolarized capacitor")
-      (footprints
-        (fp C?)
-        (fp C_????_*)
-        (fp C_????)
-        (fp SMD*_c)
-        (fp Capacitor*))
-      (fields
-        (field (name Reference) C)
-        (field (name Value) C))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib device) (part CP)
-      (description "Polarised capacitor")
-      (footprints
-        (fp CP*)
-        (fp Elko*)
-        (fp TantalC*)
-        (fp C*elec)
-        (fp c_elec*)
-        (fp SMD*_Pol))
-      (fields
-        (field (name Reference) C)
-        (field (name Value) CP))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib device) (part Battery)
-      (fields
-        (field (name Reference) BT)
-        (field (name Value) Battery))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
     (libpart (lib conn) (part CONN_01X01)
       (footprints
         (fp Pin_Header_Straight_1X01)
@@ -247,12 +247,12 @@
       (pins
         (pin (num 1) (name P1) (type passive)))))
   (libraries
+    (library (logical conn)
+      (uri "/Library/Application Support/kicad/library/conn.lib"))
     (library (logical regul)
       (uri "/Library/Application Support/kicad/library/regul.lib"))
     (library (logical device)
-      (uri "/Library/Application Support/kicad/library/device.lib"))
-    (library (logical conn)
-      (uri "/Library/Application Support/kicad/library/conn.lib")))
+      (uri "/Library/Application Support/kicad/library/device.lib")))
   (nets
     (net (code 1) (name "Net-(R3-Pad1)")
       (node (ref R3) (pin 1))
