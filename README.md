@@ -20,8 +20,8 @@ http://www.kicad-pcb.org
 
 Here's what the board looks like:
 
-![Front](https://raw.github.com/macmade/PWR/master/image/front.png)
-![Back](https://raw.github.com/macmade/PWR/master/image/back.png)
+![Front](https://raw.githubusercontent.com/macmade/PWR/master/image/front.jpg)
+![Back](https://raw.githubusercontent.com/macmade/PWR/master/image/back.jpg)
 
 Bill Of Materials
 -----------------
