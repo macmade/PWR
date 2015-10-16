@@ -9,12 +9,22 @@ PWR
 About
 -----
 
-+5 Volt power supply for breadboards using a DC wall adapter or battery.
++5 volt power supply for breadboards using a 12 volt DC wall adapter or a 9 volt battery.
 
 ### Software
 
 Schemas and PCB layouts are created with KiCad:  
 http://www.kicad-pcb.org
+
+### Board
+
+Here's what the board looks like:
+
+![Front](https://raw.github.com/macmade/PWR/master/image/front.png)
+![Back](https://raw.github.com/macmade/PWR/master/image/back.png)
+
+Bill Of Materials
+-----------------
 
 
 License
