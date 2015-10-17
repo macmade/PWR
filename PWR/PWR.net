@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/macmade/Documents/Macmade/GitHub/PWR/PWR/PWR.sch)
-    (date "2015 October 15, Thursday 18:43:34")
+    (date "2015 October 17, Saturday 18:34:25")
     (tool "Eeschema (2015-08-21 BZR 6112)-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -124,40 +124,6 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5619C421)))
   (libparts
-    (libpart (lib regul) (part 7805)
-      (aliases
-        (alias LM7805)
-        (alias LM7812)
-        (alias 78L05))
-      (description "Linear Regulator +5V")
-      (docs regulator\lm78xx.pdf)
-      (fields
-        (field (name Reference) U)
-        (field (name Value) 7805))
-      (pins
-        (pin (num GND) (name GND) (type input))
-        (pin (num VI) (name VI) (type input))
-        (pin (num VO) (name VO) (type power_out))))
-    (libpart (lib conn) (part BARREL_JACK)
-      (description "DC Barrel Jack")
-      (fields
-        (field (name Reference) CON)
-        (field (name Value) BARREL_JACK))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))
-        (pin (num 3) (name ~) (type passive))))
-    (libpart (lib conn) (part CONN_01X01)
-      (footprints
-        (fp Pin_Header_Straight_1X01)
-        (fp Pin_Header_Angled_1X01)
-        (fp Socket_Strip_Straight_1X01)
-        (fp Socket_Strip_Angled_1X01))
-      (fields
-        (field (name Reference) P)
-        (field (name Value) CONN_01X01))
-      (pins
-        (pin (num 1) (name P1) (type passive))))
     (libpart (lib device) (part D)
       (description Diode)
       (footprints
@@ -172,6 +138,51 @@
       (pins
         (pin (num 1) (name K) (type passive))
         (pin (num 2) (name A) (type passive))))
+    (libpart (lib regul) (part 7805)
+      (aliases
+        (alias LM7805)
+        (alias LM7812)
+        (alias 78L05))
+      (description "Linear Regulator +5V")
+      (docs regulator\lm78xx.pdf)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) 7805))
+      (pins
+        (pin (num GND) (name GND) (type input))
+        (pin (num VI) (name VI) (type input))
+        (pin (num VO) (name VO) (type power_out))))
+    (libpart (lib conn) (part CONN_01X01)
+      (footprints
+        (fp Pin_Header_Straight_1X01)
+        (fp Pin_Header_Angled_1X01)
+        (fp Socket_Strip_Straight_1X01)
+        (fp Socket_Strip_Angled_1X01))
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_01X01))
+      (pins
+        (pin (num 1) (name P1) (type passive))))
+    (libpart (lib device) (part R)
+      (description Resistor)
+      (footprints
+        (fp R_*)
+        (fp Resistor_*))
+      (fields
+        (field (name Reference) R)
+        (field (name Value) R))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib conn) (part BARREL_JACK)
+      (description "DC Barrel Jack")
+      (fields
+        (field (name Reference) CON)
+        (field (name Value) BARREL_JACK))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))
+        (pin (num 3) (name ~) (type passive))))
     (libpart (lib device) (part LED)
       (footprints
         (fp LED-3MM)
@@ -187,17 +198,6 @@
       (pins
         (pin (num 1) (name K) (type passive))
         (pin (num 2) (name A) (type passive))))
-    (libpart (lib device) (part R)
-      (description Resistor)
-      (footprints
-        (fp R_*)
-        (fp Resistor_*))
-      (fields
-        (field (name Reference) R)
-        (field (name Value) R))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
     (libpart (lib device) (part Switch_SPDT_x2)
       (description "Double Single Pole Double Throw (SPDT) switch")
       (fields
@@ -247,12 +247,12 @@
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive)))))
   (libraries
-    (library (logical device)
-      (uri "/Library/Application Support/kicad/library/device.lib"))
+    (library (logical conn)
+      (uri "/Library/Application Support/kicad/library/conn.lib"))
     (library (logical regul)
       (uri "/Library/Application Support/kicad/library/regul.lib"))
-    (library (logical conn)
-      (uri "/Library/Application Support/kicad/library/conn.lib")))
+    (library (logical device)
+      (uri "/Library/Application Support/kicad/library/device.lib")))
   (nets
     (net (code 1) (name "Net-(R3-Pad1)")
       (node (ref R3) (pin 1))
