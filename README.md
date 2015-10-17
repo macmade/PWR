@@ -29,6 +29,7 @@ Bill Of Materials
 | Manufacturer            | Part No.             | Details                                                                  | Quantity |
 |-------------------------|----------------------|--------------------------------------------------------------------------|----------|
 | Mean Well               | [GE24I12-P1J]        | Wall Mount AC Adapters 24W 12V 2A                                        | 1        |
+| Mean Well               | [AC Plug-MIX]        | Wall Mount AC Adapters 4-PLUG KIT US UK EU AU                            | 1        |
 | Adafruit                | [373]                | 2.1mm DC Barrel Jack                                                     | 1        |
 | Keystone Electronics    | [1291]               | 9V Battery Holder                                                        | 1        |
 | Fairchild Semiconductor | [1N4001]             | Rectifiers Vr/50V Io/1A T/R                                              | 2        |
@@ -46,6 +47,7 @@ Bill Of Materials
 | Molex                   | [22-28-4360]         | Headers & Wire Housings 36P 1 ROW VERT HDR                               | 1        |
 
 [GE24I12-P1J]: https://www.mouser.ch/Search/ProductDetail.aspx?R=GE24I12-P1Jvirtualkey63430000virtualkey709-GE24I12-P1J
+[AC Plug-MIX]: https://www.mouser.ch/Search/ProductDetail.aspx?R=AC_Plug-MIXvirtualkey63430000virtualkey709-ACPLUG-MIX
 [373]: https://www.mouser.ch/Search/ProductDetail.aspx?R=373virtualkey54850000virtualkey485-373
 [1291]: https://www.mouser.ch/Search/ProductDetail.aspx?R=1291virtualkey53400000virtualkey534-1291
 [1N4001]: https://www.mouser.ch/Search/ProductDetail.aspx?R=1N4001virtualkey51210000virtualkey512-1N4001
