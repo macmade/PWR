@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/macmade/Documents/Macmade/GitHub/PWR/PWR/PWR.sch)
-    (date "2015 October 29, Thursday 02:36:26")
+    (date "2015 October 29, Thursday 02:41:23")
     (tool "Eeschema (2015-08-21 BZR 6112)-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -124,88 +124,6 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 56317999)))
   (libparts
-    (libpart (lib XS) (part Diode)
-      (description Diode)
-      (footprints
-        (fp *diode*))
-      (fields
-        (field (name Reference) D)
-        (field (name Value) Diode))
-      (pins
-        (pin (num 1) (name K) (type passive))
-        (pin (num 2) (name A) (type passive))))
-    (libpart (lib XS) (part Switch-SPDT)
-      (description "Switch - SPDT")
-      (footprints
-        (fp *spdt*)
-        (fp *switch*))
-      (fields
-        (field (name Reference) SW)
-        (field (name Value) Switch-SPDT))
-      (pins
-        (pin (num 1) (name A) (type passive))
-        (pin (num 2) (name B) (type passive))
-        (pin (num 3) (name C) (type passive))))
-    (libpart (lib XS) (part Pin-Header-1x01)
-      (description "Pin Header - 1x01")
-      (footprints
-        (fp *pin*)
-        (fp *header*))
-      (fields
-        (field (name Reference) P)
-        (field (name Value) Pin-Header-1x01))
-      (pins
-        (pin (num 1) (name P1) (type passive))))
-    (libpart (lib XS) (part LM7805)
-      (description "LM7805 Voltage Regulator")
-      (footprints
-        (fp *lm78*))
-      (fields
-        (field (name Reference) VR)
-        (field (name Value) LM7805))
-      (pins
-        (pin (num GND) (name GND) (type input))
-        (pin (num VI) (name VI) (type input))
-        (pin (num VO) (name VO) (type power_out))))
-    (libpart (lib XS) (part Battery)
-      (description Battery)
-      (footprints
-        (fp *battery*))
-      (fields
-        (field (name Reference) BT)
-        (field (name Value) Battery))
-      (pins
-        (pin (num 1) (name ~) (type passive))))
-    (libpart (lib XS) (part Unpolarized-Capacitor)
-      (description "Unpolarized Capacitor")
-      (footprints
-        (fp *capacitor*))
-      (fields
-        (field (name Reference) C)
-        (field (name Value) Unpolarized-Capacitor))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib XS) (part LED)
-      (description LED)
-      (footprints
-        (fp *led*))
-      (fields
-        (field (name Reference) DS)
-        (field (name Value) LED))
-      (pins
-        (pin (num 1) (name K) (type passive))
-        (pin (num 2) (name A) (type passive))))
-    (libpart (lib XS) (part Resistor)
-      (description Resistor)
-      (footprints
-        (fp *resistor*))
-      (fields
-        (field (name Reference) R)
-        (field (name Value) Resistor))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
     (libpart (lib XS) (part Barrel-Jack-Connector)
       (description "Barrel Jack Connector")
       (footprints
@@ -219,6 +137,79 @@
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))
         (pin (num 3) (name ~) (type passive))))
+    (libpart (lib XS) (part Diode)
+      (description Diode)
+      (footprints
+        (fp *diode*))
+      (fields
+        (field (name Reference) D)
+        (field (name Value) Diode))
+      (pins
+        (pin (num 1) (name K) (type passive))
+        (pin (num 2) (name A) (type passive))))
+    (libpart (lib XS) (part Battery)
+      (description Battery)
+      (footprints
+        (fp *battery*))
+      (fields
+        (field (name Reference) BT)
+        (field (name Value) Battery))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib XS) (part Pin-Header-1x01)
+      (description "Pin Header - 1x01")
+      (footprints
+        (fp *pin*)
+        (fp *header*))
+      (fields
+        (field (name Reference) P)
+        (field (name Value) Pin-Header-1x01))
+      (pins
+        (pin (num 1) (name P1) (type passive))))
+    (libpart (lib XS) (part Resistor)
+      (description Resistor)
+      (footprints
+        (fp *resistor*))
+      (fields
+        (field (name Reference) R)
+        (field (name Value) Resistor))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib XS) (part Switch-SPDT)
+      (description "Switch - SPDT")
+      (footprints
+        (fp *spdt*)
+        (fp *switch*))
+      (fields
+        (field (name Reference) SW)
+        (field (name Value) Switch-SPDT))
+      (pins
+        (pin (num 1) (name A) (type passive))
+        (pin (num 2) (name B) (type passive))
+        (pin (num 3) (name C) (type passive))))
+    (libpart (lib XS) (part Unpolarized-Capacitor)
+      (description "Unpolarized Capacitor")
+      (footprints
+        (fp *capacitor*))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) Unpolarized-Capacitor))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib XS) (part LM7805)
+      (description "LM7805 Voltage Regulator")
+      (footprints
+        (fp *lm78*))
+      (fields
+        (field (name Reference) VR)
+        (field (name Value) LM7805))
+      (pins
+        (pin (num GND) (name GND) (type input))
+        (pin (num VI) (name VI) (type input))
+        (pin (num VO) (name VO) (type power_out))))
     (libpart (lib XS) (part Polarized-Capacitor)
       (description "Polarized Capacitor")
       (footprints
@@ -228,7 +219,17 @@
         (field (name Value) Polarized-Capacitor))
       (pins
         (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive)))))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib XS) (part LED)
+      (description LED)
+      (footprints
+        (fp *led*))
+      (fields
+        (field (name Reference) DS)
+        (field (name Value) LED))
+      (pins
+        (pin (num 1) (name K) (type passive))
+        (pin (num 2) (name A) (type passive)))))
   (libraries
     (library (logical XS)
       (uri /Users/macmade/Documents/Macmade/GitHub/PWR/PWR/XS.pretty/XS.lib)))
@@ -271,8 +272,9 @@
       (node (ref D1) (pin 2))
       (node (ref DS3) (pin 2))
       (node (ref DS1) (pin 2)))
-    (net (code 9) (name "Net-(BT1-Pad1)")
-      (node (ref J1) (pin 3)))
+    (net (code 9) (name "Net-(BT1-Pad2)")
+      (node (ref J1) (pin 3))
+      (node (ref BT1) (pin 2)))
     (net (code 10) (name "Net-(BT1-Pad1)")
       (node (ref BT1) (pin 1))
       (node (ref DS2) (pin 2))
