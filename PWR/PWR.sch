@@ -167,28 +167,6 @@ F 3 "" H 6300 2950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Polarized-Capacitor C1
-U 1 1 563176CA
-P 5900 2950
-F 0 "C1" H 5925 3050 50  0000 L CNN
-F 1 "100uf" H 5925 2850 50  0000 L CNN
-F 2 "XS:Capacitor-Vishay-515D-8mm" H 5900 2950 60  0001 C CNN
-F 3 "" H 5900 2950 60  0000 C CNN
-	1    5900 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Polarized-Capacitor C4
-U 1 1 56317754
-P 7700 2950
-F 0 "C4" H 7725 3050 50  0000 L CNN
-F 1 "10uf" H 7725 2850 50  0000 L CNN
-F 2 "XS:Capacitor-Vishay-515D-5mm" H 7700 2950 60  0001 C CNN
-F 3 "" H 7700 2950 60  0000 C CNN
-	1    7700 2950
-	1    0    0    -1  
-$EndComp
-$Comp
 L Pin-Header-1x01 P2
 U 1 1 563177CE
 P 8250 4300
@@ -349,6 +327,28 @@ F 1 "Power-Flag" H 7500 4150 50  0000 C CNN
 F 2 "" H 7500 4000 60  0000 C CNN
 F 3 "" H 7500 4000 60  0000 C CNN
 	1    7500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Polarized-Capacitor C1
+U 1 1 563178E9
+P 5900 2950
+F 0 "C1" H 5925 3050 50  0000 L CNN
+F 1 "100uf" H 5925 2850 50  0000 L CNN
+F 2 "XS:Capacitor-Vishay-515D-8mm" H 5900 2950 60  0001 C CNN
+F 3 "" H 5900 2950 60  0000 C CNN
+	1    5900 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Polarized-Capacitor C4
+U 1 1 56317999
+P 7700 2950
+F 0 "C4" H 7725 3050 50  0000 L CNN
+F 1 "10uf" H 7725 2850 50  0000 L CNN
+F 2 "XS:Capacitor-Vishay-515D-5mm" H 7700 2950 60  0001 C CNN
+F 3 "" H 7700 2950 60  0000 C CNN
+	1    7700 2950
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
