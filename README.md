@@ -17,6 +17,10 @@ About
 Schemas and PCB layouts are created with KiCad:  
 http://www.kicad-pcb.org
 
+#### Footprints Library
+
+This project requires the [XS-Labs KiCad Library](https://github.com/macmade/XS-KiCad-Library) to be installed in KicCad.
+
 ### Board
 
 Here's what the board looks like:
@@ -29,9 +33,7 @@ Bill Of Materials
 
 | Manufacturer            | Part No.             | Details                                                                  | Quantity |
 |-------------------------|----------------------|--------------------------------------------------------------------------|----------|
-| Mean Well               | [GE24I12-P1J]        | Wall Mount AC Adapters 24W 12V 2A                                        | 1        |
-| Mean Well               | [AC Plug-MIX]        | Wall Mount AC Adapters 4-PLUG KIT US UK EU AU                            | 1        |
-| Adafruit                | [373]                | 2.1mm DC Barrel Jack                                                     | 1        |
+| CUI Devices             | [PJ-102AH]           | 2.1mm DC Barrel Jack                                                     | 1        |
 | Keystone Electronics    | [1291]               | 9V Battery Holder                                                        | 1        |
 | Fairchild Semiconductor | [1N4001]             | Rectifiers Vr/50V Io/1A T/R                                              | 2        |
 | Texas Instruments       | [LM7805CT/NOPB]      | Linear Voltage Regulators 5V Reg                                         | 1        |
@@ -47,9 +49,7 @@ Bill Of Materials
 | NKK Switches            | [M2012SA1W03]        | Toggle Switches ON-ON PC SPDT                                            | 1        |
 | Molex                   | [22-28-4360]         | Headers & Wire Housings 36P 1 ROW VERT HDR                               | 1        |
 
-[GE24I12-P1J]: https://www.mouser.ch/Search/ProductDetail.aspx?R=GE24I12-P1Jvirtualkey63430000virtualkey709-GE24I12-P1J
-[AC Plug-MIX]: https://www.mouser.ch/Search/ProductDetail.aspx?R=AC_Plug-MIXvirtualkey63430000virtualkey709-ACPLUG-MIX
-[373]: https://www.mouser.ch/Search/ProductDetail.aspx?R=373virtualkey54850000virtualkey485-373
+[PJ-102AH]: https://www.mouser.ch/ProductDetail/CUI-Devices/PJ-102AH?qs=WyjlAZoYn50Yq4CrVLCXLw%3D%3D
 [1291]: https://www.mouser.ch/Search/ProductDetail.aspx?R=1291virtualkey53400000virtualkey534-1291
 [1N4001]: https://www.mouser.ch/Search/ProductDetail.aspx?R=1N4001virtualkey51210000virtualkey512-1N4001
 [LM7805CT/NOPB]: https://www.mouser.ch/Search/ProductDetail.aspx?R=LM7805CT%2fNOPBvirtualkey59500000virtualkey926-LM7805CT%2fNOPB
