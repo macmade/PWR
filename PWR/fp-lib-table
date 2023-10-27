@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name XS)(type KiCad)(uri "$(KIPRJMOD)/XS.pretty")(options "")(descr ""))
-)
