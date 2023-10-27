@@ -19,7 +19,7 @@ http://www.kicad-pcb.org
 
 #### Footprints Library
 
-This project requires the [XS-Labs KiCad Library](https://github.com/macmade/XS-KiCad-Library) to be installed in KicCad.
+This project requires the [XS-Labs KiCad Library](https://github.com/macmade/XS-KiCad-Library) to be installed in KiCad.
 
 ### Board
 
