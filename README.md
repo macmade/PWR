@@ -25,9 +25,9 @@ This project requires the [XS-Labs KiCad Library](https://github.com/macmade/XS-
 
 Here's what the board looks like:
 
-![3D](https://raw.githubusercontent.com/macmade/PWR/master/Assets/PWR-3D.png)
-![Top](https://raw.githubusercontent.com/macmade/PWR/master/Assets/PWR-Top.png)
-![Bottom](https://raw.githubusercontent.com/macmade/PWR/master/Assets/PWR-Bottom.png)
+![3D](https://raw.githubusercontent.com/macmade/PWR/main/Assets/PWR-3D.png)
+![Top](https://raw.githubusercontent.com/macmade/PWR/main/Assets/PWR-Top.png)
+![Bottom](https://raw.githubusercontent.com/macmade/PWR/main/Assets/PWR-Bottom.png)
 
 Bill Of Materials
 -----------------
