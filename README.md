@@ -48,7 +48,7 @@ Bill Of Materials
 | Ohmite                  | [OD104JE]            | Carbon Composition Resistors 1/4watt 100K 5% Carbon Comp                 | 1        |
 | Ohmite                  | [OD391JE]            | Carbon Composition Resistors 1/4watt 390ohm 5% Carbon Comp               | 2        |
 | NKK Switches            | [M2012SA1W03]        | Toggle Switches ON-ON PC SPDT                                            | 1        |
-| Molex                   | [22-28-4360]         | Headers & Wire Housings 36P 1 ROW VERT HDR                               | 1        |
+| Wurth Elektronik        | [691214110002]       | Fixed Terminal Blocks WR-TBL 300VAC 10A 2P Horizontal                    | 1        |
 
 [PJ-102AH]: https://www.mouser.ch/ProductDetail/CUI-Devices/PJ-102AH?qs=WyjlAZoYn50Yq4CrVLCXLw%3D%3D
 [1291]: https://www.mouser.ch/Search/ProductDetail.aspx?R=1291virtualkey53400000virtualkey534-1291
@@ -64,7 +64,7 @@ Bill Of Materials
 [OD104JE]: https://www.mouser.ch/Search/ProductDetail.aspx?R=OD104JEvirtualkey58810000virtualkey588-OD104JE
 [OD391JE]: https://www.mouser.ch/Search/ProductDetail.aspx?R=OD391JEvirtualkey58810000virtualkey588-OD391JE
 [M2012SA1W03]: https://www.mouser.ch/Search/ProductDetail.aspx?R=M2012SA1W03virtualkey63300000virtualkey633-M2012A03
-[22-28-4360]: https://www.mouser.ch/Search/ProductDetail.aspx?R=22-28-4360virtualkey53810000virtualkey538-22-28-4360
+[691214110002]: https://www.mouser.ch/ProductDetail/710-691214110002
 
 License
 -------
