@@ -1004,7 +1004,7 @@
     (property "Reference" "R3" (at 132.08 119.38 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "100K" (at 132.08 121.92 90)
+    (property "Value" "1K" (at 132.08 121.92 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "XS:Resistor-Ohmite-OD-Series" (at 132.08 123.952 90)
