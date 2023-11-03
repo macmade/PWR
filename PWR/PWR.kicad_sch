@@ -1054,7 +1054,7 @@
   (symbol (lib_id "Device:LED") (at 121.92 125.73 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 29d69a1a-9f7f-422c-b781-22b29e34b90e)
-    (property "Reference" "DS3" (at 123.5075 118.11 0)
+    (property "Reference" "D5" (at 123.5075 118.11 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "STANDBY" (at 123.5075 120.65 0)
@@ -1071,7 +1071,7 @@
     (instances
       (project "PWR"
         (path "/ae67ae0d-c9b2-462f-809e-f5bbee391f1d"
-          (reference "DS3") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
     )
@@ -1346,7 +1346,7 @@
   (symbol (lib_id "Device:LED") (at 121.92 93.98 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b0eec423-895a-4f28-a208-a617e7888114)
-    (property "Reference" "DS2" (at 123.5075 86.36 0)
+    (property "Reference" "D4" (at 123.5075 86.36 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BATTERY" (at 123.5075 88.9 0)
@@ -1363,7 +1363,7 @@
     (instances
       (project "PWR"
         (path "/ae67ae0d-c9b2-462f-809e-f5bbee391f1d"
-          (reference "DS2") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
     )
@@ -1507,7 +1507,7 @@
   (symbol (lib_id "Device:LED") (at 121.92 81.28 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fbb92788-f99d-4e87-a9ed-6f08240e03d6)
-    (property "Reference" "DS1" (at 123.5075 73.66 0)
+    (property "Reference" "D3" (at 123.5075 73.66 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ADAPTER" (at 123.5075 76.2 0)
@@ -1524,7 +1524,7 @@
     (instances
       (project "PWR"
         (path "/ae67ae0d-c9b2-462f-809e-f5bbee391f1d"
-          (reference "DS1") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
