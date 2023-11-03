@@ -36,7 +36,7 @@ Bill Of Materials
 |-------------------------|----------------------|--------------------------------------------------------------------------|----------|
 | CUI Devices             | [PJ-102AH]           | 2.1mm DC Barrel Jack                                                     | 1        |
 | Keystone Electronics    | [1291]               | 9V Battery Holder                                                        | 1        |
-| Fairchild Semiconductor | [1N4001]             | Rectifiers Vr/50V Io/1A T/R                                              | 2        |
+| ON Semiconductor        | [1N4001G]            | Rectifiers Vr/50V Io/1A T/R                                              | 2        |
 | Texas Instruments       | [LM7805CT/NOPB]      | Linear Voltage Regulators 5V Reg                                         | 1        |
 | Vishay                  | [515D107M050BB6AE3]  | Aluminium Electrolytic Capacitors - Leaded 100uF 50V 20%                 | 1        |
 | Vishay                  | [515D106M050JA6AE3]  | Aluminium Electrolytic Capacitors - Leaded 10uF 50V 20%                  | 1        |
@@ -45,26 +45,26 @@ Bill Of Materials
 | VCC                     | [4302H1-5V]          | Standard LEDs - Red - 5V                                                 | 1        |
 | VCC                     | [4302H3-5V]          | Standard LEDs - Amber - 5V                                               | 1        |
 | VCC                     | [4302H5-5V]          | Standard LEDs - Green - 5V                                               | 1        |
-| Ohmite                  | [OD104JE]            | Carbon Composition Resistors 1/4watt 100K 5% Carbon Comp                 | 1        |
+| Ohmite                  | [OD104JE]            | Carbon Composition Resistors 1/4watt 1K 5% Carbon Comp                   | 1        |
 | Ohmite                  | [OD391JE]            | Carbon Composition Resistors 1/4watt 390ohm 5% Carbon Comp               | 2        |
 | NKK Switches            | [M2012SA1W03]        | Toggle Switches ON-ON PC SPDT                                            | 1        |
 | Wurth Elektronik        | [691214110002]       | Fixed Terminal Blocks WR-TBL 300VAC 10A 2P Horizontal                    | 1        |
 
 [PJ-102AH]: https://www.mouser.ch/ProductDetail/CUI-Devices/PJ-102AH?qs=WyjlAZoYn50Yq4CrVLCXLw%3D%3D
-[1291]: https://www.mouser.ch/Search/ProductDetail.aspx?R=1291virtualkey53400000virtualkey534-1291
-[1N4001]: https://www.mouser.ch/Search/ProductDetail.aspx?R=1N4001virtualkey51210000virtualkey512-1N4001
-[LM7805CT/NOPB]: https://www.mouser.ch/Search/ProductDetail.aspx?R=LM7805CT%2fNOPBvirtualkey59500000virtualkey926-LM7805CT%2fNOPB
-[515D107M050BB6AE3]: https://www.mouser.ch/Search/ProductDetail.aspx?R=515D107M050BB6AE3virtualkey61320000virtualkey75-515D107M050BB6AE3
-[515D106M050JA6AE3]: https://www.mouser.ch/Search/ProductDetail.aspx?R=515D106M050JA6AE3virtualkey61320000virtualkey75-515D106M050JA6AE3
-[RCER71H334K1K1H03B]: https://www.mouser.ch/Search/ProductDetail.aspx?R=RCER71H334K1K1H03Bvirtualkey64800000virtualkey81-RCER71H334K1K1H3B
-[RCER71H104K0K1H03B]: https://www.mouser.ch/Search/ProductDetail.aspx?R=RCER71H104K0K1H03Bvirtualkey64800000virtualkey81-RCER71H104K0K1H3B
-[4302H1-5V]: https://www.mouser.ch/Search/ProductDetail.aspx?R=4302H1-5Vvirtualkey60600000virtualkey606-4302H1-5V
-[4302H3-5V]: https://www.mouser.ch/Search/ProductDetail.aspx?R=4302H3-5Vvirtualkey60600000virtualkey606-4302H3-5V
-[4302H5-5V]: https://www.mouser.ch/Search/ProductDetail.aspx?R=4302H5-5Vvirtualkey60600000virtualkey606-4302H5-5V
-[OD104JE]: https://www.mouser.ch/Search/ProductDetail.aspx?R=OD104JEvirtualkey58810000virtualkey588-OD104JE
-[OD391JE]: https://www.mouser.ch/Search/ProductDetail.aspx?R=OD391JEvirtualkey58810000virtualkey588-OD391JE
-[M2012SA1W03]: https://www.mouser.ch/Search/ProductDetail.aspx?R=M2012SA1W03virtualkey63300000virtualkey633-M2012A03
-[691214110002]: https://www.mouser.ch/ProductDetail/710-691214110002
+[1291]: https://www.mouser.ch/ProductDetail/Keystone-Electronics/1291?qs=1rIBfDHV7idD%2F7OF5Ssx3Q%3D%3D
+[1N4001G]: https://www.mouser.ch/ProductDetail/onsemi/1N4001G?qs=y2kkmE52mdM755WFCYWduQ%3D%3D
+[LM7805CT/NOPB]: https://www.mouser.ch/ProductDetail/Texas-Instruments/LM7805CT-NOPB?qs=OYMYEaN9QmBS2GvaX6GSkQ%3D%3D
+[515D107M050BB6AE3]: https://www.mouser.ch/ProductDetail/Vishay/515D107M050BB6AE3?qs=HDhZcL5REiZEk8xtVGOHZg%3D%3D
+[515D106M050JA6AE3]: https://www.mouser.ch/ProductDetail/Vishay/515D106M050JA6AE3?qs=HDhZcL5REibI6qP%252BqEriGQ%3D%3D
+[RCER71H334K1K1H03B]: https://www.mouser.ch/ProductDetail/Murata-Electronics/RCER71H334K1K1H03B?qs=Zt%252BKPUOg4ofa3NoWE9skgg%3D%3D
+[RCER71H104K0K1H03B]: https://www.mouser.ch/ProductDetail/Murata-Electronics/RCER71H104K0K1H03B?qs=Zt%252BKPUOg4of53jbypBpoRQ%3D%3D
+[4302H1-5V]: https://www.mouser.ch/ProductDetail/VCC/4302H1-5V?qs=N8%252Bk0S5zvCYVMSKI8UXqiw%3D%3D
+[4302H3-5V]: https://www.mouser.ch/ProductDetail/VCC/4302H3-5V?qs=b4uNTS143IJRdBkUSgW09A%3D%3D
+[4302H5-5V]: https://www.mouser.ch/ProductDetail/VCC/4302H5-5V?qs=qp111mKzDjjxM5ex4WzyIw%3D%3D
+[OD104JE]: https://www.mouser.ch/ProductDetail/Ohmite/OD102JE?qs=ilRSAoGAgpc41p%252BEzXmEgg%3D%3D
+[OD391JE]: https://www.mouser.ch/ProductDetail/Ohmite/OD391JE?qs=19tPHj7Y3n8jV6ACvYsE8g%3D%3D
+[M2012SA1W03]: https://www.mouser.ch/ProductDetail/NKK-Switches/M2012SA1W03?qs=7qTko1p7JkMWph6qTPDvKQ%3D%3D
+[691214110002]: https://www.mouser.ch/ProductDetail/Wurth-Elektronik/691214110002?qs=7gQLVZk5cPmb9EqUyfv%252B2g%3D%3D
 
 License
 -------
