@@ -42,9 +42,9 @@ Bill Of Materials
 | Vishay                  | [MAL214258109E3]     | Aluminium Electrolytic Capacitor - Radial Leaded 10uF 63V 20%            | 1        |
 | Murata                  | [RCER71H334K1K1H03B] | Multilayer Ceramic Capacitor - Radial Leaded 0.33uF 50V 10%              | 1        |
 | Murata                  | [RCER71H104K0K1H03B] | Multilayer Ceramic Capacitor - Radial Leaded 0.1uF 50V 10%               | 1        |
-| VCC                     | [4302H1-12V]         | Standard LED - Through Hole Red Diffused 12V                             | 1        |
-| VCC                     | [4302H3-12V]         | Standard LED - Through Hole Amber Diffused 12V                           | 1        |
-| VCC                     | [4302H5-12V]         | Standard LED - Through Hole Green Diffused 12V                           | 1        |
+| VCC                     | [4302H1-12V]         | Standard LEDs - Red - 12V                                                | 1        |
+| VCC                     | [4302H3-12V]         | Standard LEDs - Amber - 12V                                              | 1        |
+| VCC                     | [4302H5-12V]         | Standard LEDs - Green - 12V                                              | 1        |
 | Vishay                  | [CCF071K00JKE36]     | Metal Film Resistor - Through Hole 1/4watt 1Kohms 5%                     | 1        |
 | Vishay                  | [CCF07390RJKE36]     | Metal Film Resistor - Through Hole 1/4watt 390ohms 5%                    | 2        |
 | NKK Switches            | [M2012SA1W03]        | Toggle Switch ON-ON PC SPDT                                              | 1        |
